@@ -1,0 +1,27 @@
+bot_token: 5287586772:AAFKpp1OLGtV0Om4FXlvTh_oQfUOKti2mV0
+telegraph_token: 45b1bf163568868657173fa2185efbf8db5771aabed83c97d09b76a90de4
+telegraph_account: DragonJay
+telegraph_author_name: DragonJay
+telegraph_author_url: https://t.me/DragonJay
+socks5:
+update_interval: 10
+user_agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36
+
+mysql:
+  host: containers-us-west-47.railway.app
+  port: 6523
+  user: root
+  password: cGSAqysiJaKiW57tHlGy
+  database: railway
+
+telegram:
+  endpoint:
+
+log:
+  level: release
+  db_log: false # Print the database log, false will only print the database error log
+
+#  file: ./flowerss.log
+
+allowed_users:
+- 978846598
